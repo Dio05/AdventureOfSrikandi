@@ -378,6 +378,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/FallTrigger.cs"
+"Assets/Scripts/Platform.cs"
+"Assets/Scripts/PlatformPoly.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0

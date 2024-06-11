@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|c:\\users\\dio\\documents\\github\\adventureofsrikandi\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|c:\\users\\dio\\documents\\github\\adventureofsrikandi\\assets\\scripts\\platformbengkok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformbengkok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|c:\\users\\dio\\documents\\github\\adventureofsrikandi\\assets\\scripts\\platformpoly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platformpoly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\assets\\scripts\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,11 +38,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlatformBengkok.cs",
+              "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\PlatformBengkok.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlatformBengkok.cs",
+              "ToolTip": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\PlatformBengkok.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlatformBengkok.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:37:57.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlatformPoly.cs",
+              "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\PlatformPoly.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlatformPoly.cs",
+              "ToolTip": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\PlatformPoly.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlatformPoly.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:35:32.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\Platform.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Platform.cs",
+              "ToolTip": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\Platform.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Platform.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:17:10.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
@@ -42,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -50,12 +100,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwCkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T15:29:07.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T15:29:07.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FallTrigger.cs",
               "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\FallTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FallTrigger.cs",
@@ -67,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
