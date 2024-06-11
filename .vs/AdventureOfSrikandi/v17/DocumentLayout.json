@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\INFINITE LEARNING\\Project Akhir\\AdventureOfSrikandi\\",
+  "WorkspaceRootPath": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|D:\\INFINITE LEARNING\\Project Akhir\\AdventureOfSrikandi\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|c:\\users\\dio\\documents\\github\\adventureofsrikandi\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|c:\\users\\dio\\documents\\github\\adventureofsrikandi\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|d:\\infinite learning\\project akhir\\adventureofsrikandi\\assets\\scripts\\falltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\assets\\scripts\\falltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\falltrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|D:\\INFINITE LEARNING\\Project Akhir\\AdventureOfSrikandi\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3DEBF12-7C01-E8C9-CAB7-22FFF6F56519}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,45 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FallTrigger.cs",
-              "DocumentMoniker": "D:\\INFINITE LEARNING\\Project Akhir\\AdventureOfSrikandi\\Assets\\Scripts\\FallTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FallTrigger.cs",
-              "ToolTip": "D:\\INFINITE LEARNING\\Project Akhir\\AdventureOfSrikandi\\Assets\\Scripts\\FallTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FallTrigger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T12:26:02.92Z",
+              "WhenOpened": "2024-06-11T15:44:04.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T15:29:07.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FallTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\FallTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FallTrigger.cs",
+              "ToolTip": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\FallTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FallTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T12:26:02.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CameraController.cs",
-              "DocumentMoniker": "D:\\INFINITE LEARNING\\Project Akhir\\AdventureOfSrikandi\\Assets\\Scripts\\CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
-              "ToolTip": "D:\\INFINITE LEARNING\\Project Akhir\\AdventureOfSrikandi\\Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\DIO\\Documents\\GitHub\\AdventureOfSrikandi\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T15:46:12.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\INFINITE LEARNING\\Project Akhir\\AdventureOfSrikandi\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "D:\\INFINITE LEARNING\\Project Akhir\\AdventureOfSrikandi\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAowEwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T11:03:23.05Z",
-              "EditorCaption": ""
             }
           ]
         }
