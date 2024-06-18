@@ -5,16 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class FallTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Transform player;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        transform.position = new Vector2(player.position.x, -10.82f);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

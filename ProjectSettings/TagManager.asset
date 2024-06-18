@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Tanah
+  - Water
+  - home
   layers:
   - Default
   - TransparentFX

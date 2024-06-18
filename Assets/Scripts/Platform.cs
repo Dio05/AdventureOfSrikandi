@@ -17,6 +17,7 @@ public class Platform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Player.transform.position.y < transform.position.y)
         {
             colider.enabled = false;
@@ -35,7 +36,7 @@ public class Platform : MonoBehaviour
             
             
         }
-
+        */
        
     }
 }

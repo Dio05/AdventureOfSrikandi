@@ -16,6 +16,7 @@ public class PlatformPoly : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Player.transform.position.y < transform.position.y)
         {
             
@@ -34,7 +35,7 @@ public class PlatformPoly : MonoBehaviour
             polycol.enabled = false;
             
         }
-
+        */
        
     }
 }
