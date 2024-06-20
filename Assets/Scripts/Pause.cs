@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
+    [SerializeField] Score scoreScript;
+    
+    
+
     public void PauseGame()
     {
         Time.timeScale = 0f;
@@ -24,5 +28,21 @@ public class Pause : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1f;
+    }
+
+    public void jawaban()
+    {
+        scoreScript.addScorelvl1();
+        
+    }
+
+    public void jawaban2()
+    {
+        scoreScript.addScorelvl2();
+    }
+
+    public void Jsalah()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

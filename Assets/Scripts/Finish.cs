@@ -6,9 +6,20 @@ using UnityEngine.SceneManagement;
 public class Finish : MonoBehaviour
 {
     [SerializeField] string sceneName;
+    public Score varscore;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(sceneName);
+        
+        if (varscore.score == 100)
+        {
+            SceneManager.LoadScene(sceneName);
+
+        }
+        else
+        {
+            SceneManager.LoadScene("Level1");
+        }
+        
     }
 }

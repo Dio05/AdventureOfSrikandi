@@ -386,6 +386,7 @@
 "Assets/Scripts/PlatformPoly.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Score.cs"
 "Assets/Scripts/TriggerTextTreasure.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

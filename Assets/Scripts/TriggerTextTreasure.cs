@@ -28,4 +28,9 @@ public class TriggerTextTreasure : MonoBehaviour
             textObjek.SetActive(false);
         }
     }
+
+    public void hancur()
+    {
+        Destroy(this.gameObject);
+    }
 }

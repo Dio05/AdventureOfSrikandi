@@ -17,7 +17,7 @@ public class FallTrigger : MonoBehaviour
         if(other.tag == "Player")
         {
             print("falling");
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
