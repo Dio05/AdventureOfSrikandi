@@ -6,6 +6,7 @@ public class TriggerTextTreasure : MonoBehaviour
 {
     [SerializeField] GameObject textObjek;
     AudioSource textSource;
+    
 
     private void Start()
     {
@@ -26,6 +27,7 @@ public class TriggerTextTreasure : MonoBehaviour
         if (collision.tag == "Player")
         {
             textObjek.SetActive(false);
+            
         }
     }
 

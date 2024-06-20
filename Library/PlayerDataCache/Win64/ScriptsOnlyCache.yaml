@@ -10,6 +10,8 @@ ScriptsOnlyBuild:
     - PlatformPoly
     - Player
     - PlayerController
+    - Reset
+    - Score
     - TriggerTextTreasure
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -109,6 +111,150 @@ ScriptsOnlyBuild:
     methodName: StartGame
   - assembly: Assembly-CSharp
     fullTypeName: Pause
+    methodName: Jsalah
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: jawaban
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerTextTreasure
+    methodName: hancur
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: ResumeGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: RestartGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: PauseGame
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: HomeButton
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: jawaban2
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerTextTreasure
+    methodName: hancur
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: ResumeGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerController
+    methodName: respawn
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: jawaban2
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerTextTreasure
+    methodName: hancur
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: jawaban2
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerTextTreasure
+    methodName: hancur
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerController
+    methodName: respawn
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: HomeButton
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: Jsalah
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: PauseGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: Jsalah
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: jawaban2
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerTextTreasure
+    methodName: hancur
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: Jsalah
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
     methodName: ResumeGame
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
@@ -118,28 +264,73 @@ ScriptsOnlyBuild:
     methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: Pause
-    methodName: PauseGame
+    methodName: jawaban
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerTextTreasure
+    methodName: hancur
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: jawaban3
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerTextTreasure
+    methodName: hancur
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: Jsalah
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: Jsalah
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: jawaban3
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerTextTreasure
+    methodName: hancur
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: jawaban
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: TriggerTextTreasure
+    methodName: hancur
   - assembly: Assembly-CSharp
     fullTypeName: Pause
     methodName: HomeButton
   - assembly: Assembly-CSharp
     fullTypeName: Pause
-    methodName: ResumeGame
+    methodName: PauseGame
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
-    fullTypeName: Pause
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: Pause
-    methodName: HomeButton
-  - assembly: Assembly-CSharp
-    fullTypeName: Pause
-    methodName: PauseGame
+    fullTypeName: PlayerController
+    methodName: respawn
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -186,39 +377,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 642}
     - Class: 114
-      Script: {instanceID: 16704}
+      Script: {instanceID: 16702}
     - Class: 114
-      Script: {instanceID: 16730}
+      Script: {instanceID: 16728}
     - Class: 114
-      Script: {instanceID: 17188}
+      Script: {instanceID: 17184}
+    - Class: 114
+      Script: {instanceID: 17982}
     - Class: 114
       Script: {instanceID: 17990}
     - Class: 114
-      Script: {instanceID: 17998}
+      Script: {instanceID: 18298}
     - Class: 114
-      Script: {instanceID: 18256}
+      Script: {instanceID: 18596}
     - Class: 114
-      Script: {instanceID: 18310}
+      Script: {instanceID: 18766}
     - Class: 114
-      Script: {instanceID: 18610}
+      Script: {instanceID: 21108}
     - Class: 114
-      Script: {instanceID: 21148}
+      Script: {instanceID: 21806}
     - Class: 114
-      Script: {instanceID: 21852}
+      Script: {instanceID: 22022}
     - Class: 114
-      Script: {instanceID: 22068}
+      Script: {instanceID: 22070}
     - Class: 114
-      Script: {instanceID: 22116}
+      Script: {instanceID: 22286}
     - Class: 114
-      Script: {instanceID: 22336}
+      Script: {instanceID: 22432}
     - Class: 114
-      Script: {instanceID: 22480}
+      Script: {instanceID: 23172}
     - Class: 114
-      Script: {instanceID: 23222}
+      Script: {instanceID: 23524}
     - Class: 114
-      Script: {instanceID: 23918}
+      Script: {instanceID: 23864}
     - Class: 114
-      Script: {instanceID: 39104}
+      Script: {instanceID: 24894}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -285,39 +478,142 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 642}
     - Class: 114
-      Script: {instanceID: 16704}
+      Script: {instanceID: 16702}
     - Class: 114
-      Script: {instanceID: 16730}
+      Script: {instanceID: 16728}
     - Class: 114
-      Script: {instanceID: 17188}
+      Script: {instanceID: 17184}
+    - Class: 114
+      Script: {instanceID: 17982}
     - Class: 114
       Script: {instanceID: 17990}
     - Class: 114
-      Script: {instanceID: 17998}
+      Script: {instanceID: 18298}
     - Class: 114
-      Script: {instanceID: 18256}
+      Script: {instanceID: 18596}
     - Class: 114
-      Script: {instanceID: 18310}
+      Script: {instanceID: 18766}
     - Class: 114
-      Script: {instanceID: 18610}
+      Script: {instanceID: 21108}
     - Class: 114
-      Script: {instanceID: 21148}
+      Script: {instanceID: 21806}
     - Class: 114
-      Script: {instanceID: 21852}
+      Script: {instanceID: 22022}
     - Class: 114
-      Script: {instanceID: 22068}
+      Script: {instanceID: 22070}
     - Class: 114
-      Script: {instanceID: 22116}
+      Script: {instanceID: 22286}
     - Class: 114
-      Script: {instanceID: 22336}
+      Script: {instanceID: 22432}
     - Class: 114
-      Script: {instanceID: 22480}
+      Script: {instanceID: 23172}
     - Class: 114
-      Script: {instanceID: 23222}
+      Script: {instanceID: 23524}
     - Class: 114
-      Script: {instanceID: 23918}
+      Script: {instanceID: 23864}
     - Class: 114
-      Script: {instanceID: 39104}
+      Script: {instanceID: 24708}
+    - Class: 114
+      Script: {instanceID: 24894}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Level3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 642}
+    - Class: 114
+      Script: {instanceID: 16702}
+    - Class: 114
+      Script: {instanceID: 16728}
+    - Class: 114
+      Script: {instanceID: 17184}
+    - Class: 114
+      Script: {instanceID: 17982}
+    - Class: 114
+      Script: {instanceID: 17990}
+    - Class: 114
+      Script: {instanceID: 18596}
+    - Class: 114
+      Script: {instanceID: 18766}
+    - Class: 114
+      Script: {instanceID: 21108}
+    - Class: 114
+      Script: {instanceID: 21806}
+    - Class: 114
+      Script: {instanceID: 22022}
+    - Class: 114
+      Script: {instanceID: 22070}
+    - Class: 114
+      Script: {instanceID: 22286}
+    - Class: 114
+      Script: {instanceID: 22432}
+    - Class: 114
+      Script: {instanceID: 23172}
+    - Class: 114
+      Script: {instanceID: 23524}
+    - Class: 114
+      Script: {instanceID: 23864}
+    - Class: 114
+      Script: {instanceID: 24894}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -364,31 +660,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16704}
+      Script: {instanceID: 16702}
     - Class: 114
-      Script: {instanceID: 17440}
+      Script: {instanceID: 17436}
     - Class: 114
-      Script: {instanceID: 17990}
+      Script: {instanceID: 17982}
     - Class: 114
-      Script: {instanceID: 18256}
+      Script: {instanceID: 18596}
     - Class: 114
-      Script: {instanceID: 18610}
+      Script: {instanceID: 19736}
     - Class: 114
-      Script: {instanceID: 19756}
+      Script: {instanceID: 19870}
     - Class: 114
-      Script: {instanceID: 19892}
+      Script: {instanceID: 20192}
     - Class: 114
-      Script: {instanceID: 20214}
+      Script: {instanceID: 21108}
     - Class: 114
-      Script: {instanceID: 21148}
+      Script: {instanceID: 21806}
     - Class: 114
-      Script: {instanceID: 21852}
+      Script: {instanceID: 22432}
     - Class: 114
-      Script: {instanceID: 22068}
+      Script: {instanceID: 24496}
     - Class: 114
-      Script: {instanceID: 22480}
-    - Class: 114
-      Script: {instanceID: 24560}
+      Script: {instanceID: 24894}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -416,19 +710,13 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
-      Hash: 55060a7bf226ac385ce19ebd450f199f
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UIElements
-    className: PanelRaycaster
-  - hash:
-      serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: e13f82c552265c499e653ecd4058adcc
+      Hash: bafdb7b4bbb0ee2028cd46243e0b015f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: FallTrigger
@@ -584,7 +872,7 @@ ScriptsOnlyBuild:
     className: EventSystem
   - hash:
       serializedVersion: 2
-      Hash: cbb4b3f213a98e5186061f84ef680680
+      Hash: f026887b7c310fe3b0ddc62d8cf5da83
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Pause
@@ -644,12 +932,6 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: 5a4aa2850fe11587f47e34c270c7fd22
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -660,12 +942,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Platform
-  - hash:
-      serializedVersion: 2
-      Hash: 28fd3d045acc780719a17f02073eb448
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: InputField
   - hash:
       serializedVersion: 2
       Hash: 8e6dc3d79712ca4934f6d50c80f010b1
@@ -762,6 +1038,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 28d32c7db181c00d69dc2f815a202f72
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Score
   - hash:
       serializedVersion: 2
       Hash: c6369b4cc3be620d6c9300e920bc3d52
@@ -1160,12 +1442,6 @@ ScriptsOnlyBuild:
     className: UnityOnBecameInvisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5874b789cd9832847c61ebfa803213af
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UIElements
-    className: PanelEventHandler
-  - hash:
-      serializedVersion: 2
       Hash: 41c774bc80b2c66dfea092b2134f4673
     assemblyName: Unity.2D.Animation.Runtime
     namespaceName: UnityEngine.U2D.Animation
@@ -1254,6 +1530,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: Benchmark03
+  - hash:
+      serializedVersion: 2
+      Hash: 18b3859ba302901c74cfe281443d5665
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InsideHome
   - hash:
       serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
@@ -1400,7 +1682,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: 6de09e7d45a12a05ed75745ecd226f74
+      Hash: d03c52d7fb14761feae5a52a4c75f23e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -1454,12 +1736,6 @@ ScriptsOnlyBuild:
     className: SpriteLibrary
   - hash:
       serializedVersion: 2
-      Hash: 5ebc58ec194dd44630b25fcc270ad4af
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Dropdown
-  - hash:
-      serializedVersion: 2
       Hash: e2734bcc7b3e94776ade5d59f54fec1e
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -1476,6 +1752,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: df52632cadc39e7b7872e15da6e80fc1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TriggerTextTreasure
   - hash:
       serializedVersion: 2
       Hash: 67272c9c30c50b68ef1ce72ac0191c57
@@ -1502,7 +1784,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: b4fe3782dc1bf687d476fd88735406a4
+      Hash: 1bf75e2fa88377f3b4cab1a4ce5ba74d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Finish
@@ -1640,6 +1922,12 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
+      Hash: 9881ce9f828cec079d75cffc8aab52cd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Reset
+  - hash:
+      serializedVersion: 2
       Hash: 00eef92bf387da2c9009267123d9d674
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1652,19 +1940,38 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: df52632cadc39e7b7872e15da6e80fc1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: TriggerTextTreasure
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
   - hash:
       serializedVersion: 2
-      Hash: 18b3859ba302901c74cfe281443d5665
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: InsideHome
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
   platform: 19
   scenePathNames:
   - Assets/Scenes/StartMenu.unity
   - Assets/Scenes/Level1.unity
   - Assets/Scenes/Level2.unity
-  playerPath: C:/Users/DIO/Documents/GitHub/Test Build/Adventure of Srikandi/AdventureOfSrikandi.exe
+  - Assets/Scenes/Level3.unity
+  playerPath: C:/Users/DIO/Documents/GitHub/Test Build/V2/AdventureOfSrikandi.exe

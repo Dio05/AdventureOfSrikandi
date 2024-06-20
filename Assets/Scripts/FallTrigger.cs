@@ -7,7 +7,7 @@ public class FallTrigger : MonoBehaviour
 {
     [SerializeField] Transform player;
 
-    
+    [SerializeField] PlayerController spawn;
 
     private void Update()
     {
@@ -18,7 +18,7 @@ public class FallTrigger : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-
+            spawn.respawn();
             // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }

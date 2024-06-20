@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     Animator animasi;
     Rigidbody2D rb;
     [SerializeField] Transform BG;
+    [SerializeField] Transform BG2;
     [SerializeField] float jumpingGravity = -9.81f;
     [SerializeField] public float fallingGravity = -19.62f;
     Vector2 startpos;
@@ -59,11 +60,14 @@ public class PlayerController : MonoBehaviour
         {
             transform.localScale = new Vector3(-1, 1, 1);
             BG.localScale = new Vector3(-0.83344f, 1.634832f, 2.840521f);
+            BG2.localScale = new Vector3(-1.207884f, 2.177124f, 3.782753f);
+
         }
         if (gerak > 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
             BG.localScale = new Vector3(0.83344f, 1.634832f, 2.840521f);
+            BG2.localScale = new Vector3(1.207884f, 2.177124f, 3.782753f);
         }
     }
 
@@ -134,6 +138,8 @@ public class PlayerController : MonoBehaviour
             animasi.SetBool("Tenggelam", tenggelam);
             Physics2D.gravity = new Vector2(0, fallingGravity);
         }
+
+        
     }
 
     public void respawn()

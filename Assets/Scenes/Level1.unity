@@ -793,6 +793,90 @@ Sprite:
   m_PhysicsShape: []
   m_Bones: []
   m_SpriteID: 
+--- !u!1 &212408654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212408655}
+  - component: {fileID: 212408656}
+  m_Layer: 0
+  m_Name: bg 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &212408655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212408654}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.8105074, y: -0.8805755, z: 10}
+  m_LocalScale: {x: 0.31931347, y: 0.5755395, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 519420032}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &212408656
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212408654}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 7875ff8c66ed10e40be30bb24a58bdcc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.35, y: 3.93}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!114 &266411958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -934,7 +1018,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1906969727}
+      - m_Target: {fileID: 1906969733}
         m_TargetAssemblyTypeName: TriggerTextTreasure, Assembly-CSharp
         m_MethodName: hancur
         m_Mode: 1
@@ -1066,7 +1150,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2019493614}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
         m_MethodName: ResumeGame
         m_Mode: 1
@@ -1244,7 +1328,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2019493614}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
         m_MethodName: RestartGame
         m_Mode: 1
@@ -1687,6 +1771,7 @@ MonoBehaviour:
   ditanah: 0
   tenggelam: 0
   BG: {fileID: 1209301099}
+  BG2: {fileID: 212408655}
   jumpingGravity: -9.81
   fallingGravity: -24.5
   audioClip:
@@ -1967,6 +2052,7 @@ Transform:
   - {fileID: 1209301099}
   - {fileID: 878180615}
   - {fileID: 768293606}
+  - {fileID: 212408655}
   m_Father: {fileID: 410557865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
@@ -2282,7 +2368,7 @@ GameObject:
   - component: {fileID: 551480752}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Tanah
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3099,7 +3185,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 68001a6d61d937c40b75e83caff6eaa8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a14c80fcec15cd5449e240e82b27f01c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
@@ -5675,18 +5761,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
-        m_MethodName: PauseGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 758607523}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -5703,6 +5777,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2019493614}
+        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+        m_MethodName: PauseGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6896,6 +6982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 410557865}
+  spawn: {fileID: 410557870}
 --- !u!114 &1734158689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23307,19 +23394,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882826098}
   m_CullTransparentMesh: 1
---- !u!114 &1906969727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664480252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfa7cb377c499f94c81461d1831f7a72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textObjek: {fileID: 521217446}
 --- !u!61 &1906969728
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23461,6 +23535,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1906969733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664480252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfa7cb377c499f94c81461d1831f7a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObjek: {fileID: 521217446}
 --- !u!4 &1908468260 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2498014997100603922, guid: 05f71264cd110f5438b46bd1632d5892, type: 3}
@@ -23620,6 +23707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreScript: {fileID: 2141620882}
+  ngulang: {fileID: 0}
 --- !u!1 &2031110325
 GameObject:
   m_ObjectHideFlags: 0
@@ -23702,7 +23790,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2019493614}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
         m_MethodName: HomeButton
         m_Mode: 1
@@ -24765,6 +24853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: peti harta karun
       objectReference: {fileID: 0}
+    - target: {fileID: 4314091758626755219, guid: 6fca0164bb5b36246a7a89e03abdcf41, type: 3}
+      propertyPath: m_TagString
+      value: Peti
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24774,10 +24866,10 @@ PrefabInstance:
       addedObject: {fileID: 1906969728}
     - targetCorrespondingSourceObject: {fileID: 4314091758626755219, guid: 6fca0164bb5b36246a7a89e03abdcf41, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1906969727}
+      addedObject: {fileID: 1906969730}
     - targetCorrespondingSourceObject: {fileID: 4314091758626755219, guid: 6fca0164bb5b36246a7a89e03abdcf41, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1906969730}
+      addedObject: {fileID: 1906969733}
   m_SourcePrefab: {fileID: 100100000, guid: 6fca0164bb5b36246a7a89e03abdcf41, type: 3}
 --- !u!1001 &7669571514104481096
 PrefabInstance:
