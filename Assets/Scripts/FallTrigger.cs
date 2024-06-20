@@ -7,6 +7,8 @@ public class FallTrigger : MonoBehaviour
 {
     [SerializeField] Transform player;
 
+    
+
     private void Update()
     {
         transform.position = new Vector2(player.position.x, -10.82f);
@@ -16,8 +18,9 @@ public class FallTrigger : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            print("falling");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+            // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
+
 }

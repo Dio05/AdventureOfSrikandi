@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class Pause : MonoBehaviour
 {
     [SerializeField] Score scoreScript;
-    
-    
+
+    [SerializeField] PlayerController ngulang;
 
     public void PauseGame()
     {
@@ -41,8 +41,18 @@ public class Pause : MonoBehaviour
         scoreScript.addScorelvl2();
     }
 
+    public void jawaban3()
+    {
+        scoreScript.addScorelvl3();
+    }
+
+    public void jawaban3a()
+    {
+        scoreScript.addScorelvl3a();
+    }
+
     public void Jsalah()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("Level1");
     }
 }

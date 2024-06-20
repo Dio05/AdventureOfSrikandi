@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,14 +9,14 @@ public class PlayerController : MonoBehaviour
     Vector2 arah;
     [SerializeField] float Kecepatan;
     [SerializeField] float Lompat;
-    [SerializeField] bool ditanah;
+    [SerializeField] public bool ditanah;
     [SerializeField] bool tenggelam;
     Animator animasi;
     Rigidbody2D rb;
     [SerializeField] Transform BG;
     [SerializeField] float jumpingGravity = -9.81f;
-    [SerializeField] float fallingGravity = -19.62f;
-
+    [SerializeField] public float fallingGravity = -19.62f;
+    Vector2 startpos;
     AudioSource audioSource;
     [SerializeField] AudioClip[] audioClip;
 
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
         animasi = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
         Physics2D.gravity = new Vector2(0, jumpingGravity);
+        startpos = transform.position;
     }
 
     // Update is called once per frame
@@ -104,7 +106,13 @@ public class PlayerController : MonoBehaviour
         {
             audioSource.enabled = false;
         }
-        
+
+        if (pemain.tag == "Respawn")
+        {
+            respawn();
+
+        }
+
     }
 
 
@@ -119,5 +127,21 @@ public class PlayerController : MonoBehaviour
         {
             audioSource.enabled = true;
         }
+
+        if (pemain.tag == "Water")
+        {
+            tenggelam = false;
+            animasi.SetBool("Tenggelam", tenggelam);
+            Physics2D.gravity = new Vector2(0, fallingGravity);
+        }
     }
+
+    public void respawn()
+    {
+        transform.position = startpos;
+        
+    }
+
+   
+   
 }

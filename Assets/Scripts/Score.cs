@@ -10,7 +10,7 @@ public class Score : MonoBehaviour
 
     public int score = 0;
 
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void addScorelvl1()
@@ -33,6 +33,18 @@ public class Score : MonoBehaviour
     public void addScorelvl2()
     {
         score = score + 50;
+        textScore.text = "Score = " + score;
+    }
+
+    public void addScorelvl3()
+    {
+        score = score + 40;
+        textScore.text = "Score = " + score;
+    }
+
+    public void addScorelvl3a()
+    {
+        score = score + 20;
         textScore.text = "Score = " + score;
     }
 }
